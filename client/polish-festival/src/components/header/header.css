@@ -1,0 +1,80 @@
+.header{
+    background-color: #8b0000;
+    position: relative;
+}
+
+.bannerImg{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.headerContainer{
+    margin: 0px 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.headerTitle{
+font-size: 50px;
+text-align: center;
+}
+
+.linkit{
+  color: #8b0000;
+  text-decoration: none;
+}
+
+.headerBtn{
+    color: #db133d;
+    font-weight: 500;
+    border: solid 2px #db133d ;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #db133d;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #db133d;
+}
+
+.searchButton {
+  width: 70px;
+  height: 56px;
+  border: 1px solid #db133d;
+  background: #db133d;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 70%;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

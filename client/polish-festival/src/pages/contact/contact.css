@@ -1,0 +1,9 @@
+.info{
+   background-color: snow; 
+}
+
+.infoItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

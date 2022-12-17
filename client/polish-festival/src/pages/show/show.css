@@ -1,0 +1,35 @@
+.theshow{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.showContainer{
+    text-align: center;
+    margin-top: 20px;
+    border: solid #8b0000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #8b0000;
+    color: white;
+    width: 80%;
+}
+
+.bookTicket{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: #8b0000;
+    margin: 5px 0px;
+    width: 200px;
+    height: 60px;
+}
+
+.showImage{
+    border: solid white;
+    border-radius: 10px;
+    width: 60%;
+}

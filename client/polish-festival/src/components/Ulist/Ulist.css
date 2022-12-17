@@ -1,0 +1,23 @@
+.result{
+    border: solid #8b0000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #8b0000;
+    color: white;
+    margin: 20px 0px;
+    max-width: 600px;
+}
+
+.showImg{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.book{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: #8b0000;
+    margin: 5px 0px;
+}

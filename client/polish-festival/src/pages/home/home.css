@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

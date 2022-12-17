@@ -1,0 +1,60 @@
+.navbar{
+    height: 50px;
+    background-color: #8b0000;
+    display:flex;
+    justify-content: center;
+    
+}
+.logo{
+    margin-left: 5px;
+}
+
+.linkto{
+    color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.linktoo{
+    color: #8b0000;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.logoImg{
+    width: auto;
+    height: 40px;
+}
+
+.navContainer{
+    margin-top: 5px;
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}
+
+.left{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.navItems{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+.navButton{
+    color: #db133d;
+    font-weight: 500;
+    border: solid 2px #db133d ;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0px 10px;
+}
