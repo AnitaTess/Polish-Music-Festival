@@ -8,6 +8,7 @@ import AdminH from "./pages/adminH/AdminH";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/home";
 import Login from "./pages/login/Login";
+import NewShow from "./pages/newShow/NewShow";
 import Register from "./pages/register/Register";
 import Searched from "./pages/searched/Searched";
 import Show from "./pages/show/show";
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element= {<Home/>}/>
         <Route path="/admin" element= {<AdminH/>}/>
+        <Route path="/newshow" element= {<NewShow/>}/>
         <Route path="/contact" element= {<Contact/>}/>
         <Route path="/about" element= {<About/>}/>
          {/* <Route path="/shows" element= {<Searched/>}/> */}

@@ -15,20 +15,14 @@ const Ulist = ({item}) =>{
 
     return(
         <div className="results">
-                    <div className="Itemm">
-                    <table id="table">
-                    <tr>
-    <th>User Type:</th>
-    <th>Username:</th>
-    <th>Email:</th>
-  </tr>
-  <tr>
-    <td>{admin}</td>
-    <td>{item.username}</td>
+
+<tr className="rowa">
+    <td>{admin}:</td>
+    <td>{item.username},</td>
     <td>{item.email}</td>
+    
   </tr>
-  </table>
-            </div>
+
             </div>
 
 )}

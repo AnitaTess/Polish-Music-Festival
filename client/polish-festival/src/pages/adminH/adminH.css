@@ -1,0 +1,23 @@
+.tablea{
+    border: solid white;
+    margin: 10px 0px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttonNew{
+    padding: 5px;
+    border: solid #8b0000;
+    border-radius: 5px;
+    background-color: white;
+    color: #8b0000;
+    margin: 5px 0px;
+    cursor: pointer;
+    width: 500px;
+    text-align: center;
+margin-top: 20px;
+}

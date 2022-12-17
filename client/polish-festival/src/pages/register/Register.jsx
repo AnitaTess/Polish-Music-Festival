@@ -29,7 +29,7 @@ const Register = () => {
         if( username && email && password && (password === reEnterPassword)){
             await axios.post("/auth/register", user)
             .then( res => {
-                alert("You Logged In Successfuly")
+                alert("You Registered In Successfuly")
                 navigate('/login')
             })
         } else {
