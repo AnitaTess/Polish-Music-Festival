@@ -19,6 +19,9 @@ const Contact = () =>{
                 <h2>Polish Email: polishmusicfestival.glasgow@op.pl</h2>
                 <h2>English Email: polishmusicfestival.glasgow@gmail.co</h2>
                 </div>
+                <div className="infoItem">
+                    <h2 className="policy">Visit the <a className='linkp' href="/regulamin">Privacy Policy Page</a> for any personal data information.</h2>
+                </div>
             </div>
             <Footer />
         </div>

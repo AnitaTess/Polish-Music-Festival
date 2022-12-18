@@ -2,6 +2,15 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    color: black;
+}
+
+.linkp{
+    color: #8b0000;
+}
+
+.check{
+    color: black;
 }
 
 .regContainer {

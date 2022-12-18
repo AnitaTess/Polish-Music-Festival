@@ -9,6 +9,22 @@
     margin-top: 10px;
 }
 
+.imagee{
+  max-width:100%;
+  height:auto;
+}
+
+.imageeContainer{
+  max-width: 700px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto; 
+  width: auto;
+  margin: auto;
+
+}
+
 .headerContainer{
     margin: 0px 30px;
     color: white;

@@ -49,6 +49,8 @@ const Register = () => {
             <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" value={user.email} placeholder="Your Email" onChange={ handleChange } required></input>
             <input type="password" name="password" value={user.password} placeholder="Your Password" onChange={ handleChange } required></input>
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange } required></input>
+            <div className='check'> <input type="checkbox" id="vehicle1" name="vehicle1" value="Privacy Policy"/>
+            <label for="vehicle1">Check to Accept our <a className='linkp' href='/regulamin'>Privacy Policy</a></label></div>
             <div className="button" onClick={register} >Register</div>
             <div>or</div>
             <div className="button" onClick={() => navigate('/login')}>Login</div>
